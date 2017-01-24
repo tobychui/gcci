@@ -1,4 +1,5 @@
 # gcci
+<img src="https://raw.githubusercontent.com/tobychui/gcci/master/interface.png"></img>
 <p>
 The GCCI is a simple gcc.exe compiler user interface design for Windows 7 or above,
 running with .NET framework 4.5
