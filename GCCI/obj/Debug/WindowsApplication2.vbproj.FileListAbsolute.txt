@@ -1,0 +1,26 @@
+C:\Users\Toby Chui\Desktop\Project\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.vbprojResolveAssemblyReference.cache
+C:\Users\Toby Chui\Desktop\Project\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.vbproj.GenerateResource.Cache
+C:\Users\Toby Chui\Desktop\Project\WindowsApplication2\WindowsApplication2\bin\Debug\gcc_quick_compile.exe.config
+C:\Users\Toby Chui\Desktop\Project\WindowsApplication2\WindowsApplication2\bin\Debug\gcc_quick_compile.exe
+C:\Users\Toby Chui\Desktop\Project\WindowsApplication2\WindowsApplication2\bin\Debug\gcc_quick_compile.pdb
+C:\Users\Toby Chui\Desktop\Project\WindowsApplication2\WindowsApplication2\bin\Debug\gcc_quick_compile.xml
+C:\Users\Toby Chui\Desktop\Project\WindowsApplication2\WindowsApplication2\obj\Debug\gqci.Form1.resources
+C:\Users\Toby Chui\Desktop\Project\WindowsApplication2\WindowsApplication2\obj\Debug\gqci.Resources.resources
+C:\Users\Toby Chui\Desktop\Project\WindowsApplication2\WindowsApplication2\obj\Debug\gcc_quick_compile.exe
+C:\Users\Toby Chui\Desktop\Project\WindowsApplication2\WindowsApplication2\obj\Debug\gcc_quick_compile.xml
+C:\Users\Toby Chui\Desktop\Project\WindowsApplication2\WindowsApplication2\obj\Debug\gcc_quick_compile.pdb
+C:\Users\Toby\Desktop\Project\gcc quick compile ineterface\WindowsApplication2\bin\Debug\gcc_quick_compile.exe.config
+C:\Users\Toby\Desktop\Project\gcc quick compile ineterface\WindowsApplication2\obj\Debug\gcc_quick_compile.exe
+C:\Users\Toby\Desktop\Project\gcc quick compile ineterface\WindowsApplication2\obj\Debug\gcc_quick_compile.xml
+C:\Users\Toby\Desktop\Project\gcc quick compile ineterface\WindowsApplication2\obj\Debug\gcc_quick_compile.pdb
+C:\Users\Toby\Desktop\Project\gcc quick compile ineterface\WindowsApplication2\bin\Debug\gcc_quick_compile.exe
+C:\Users\Toby\Desktop\Project\gcc quick compile ineterface\WindowsApplication2\bin\Debug\gcc_quick_compile.pdb
+C:\Users\Toby\Desktop\Project\gcc quick compile ineterface\WindowsApplication2\bin\Debug\gcc_quick_compile.xml
+C:\Users\Toby\Desktop\Project\gcc quick compile ineterface\WindowsApplication2\obj\Debug\WindowsApplication2.vbprojResolveAssemblyReference.cache
+C:\Users\Toby\Desktop\Project\gcc quick compile ineterface\WindowsApplication2\obj\Debug\WindowsApplication2.vbproj.GenerateResource.Cache
+C:\Users\Toby\Desktop\Project\gcc quick compile ineterface\WindowsApplication2\obj\Debug\gcci.Form1.resources
+C:\Users\Toby\Desktop\Project\gcc quick compile ineterface\WindowsApplication2\obj\Debug\gcci.Resources.resources
+C:\Users\Toby\Desktop\Project\gcc quick compile ineterface\GCCI\bin\Debug\gcc_quick_compile.exe.config
+C:\Users\Toby\Desktop\Project\gcc quick compile ineterface\GCCI\obj\Debug\gcc_quick_compile.exe
+C:\Users\Toby\Desktop\Project\gcc quick compile ineterface\GCCI\obj\Debug\gcc_quick_compile.xml
+C:\Users\Toby\Desktop\Project\gcc quick compile ineterface\GCCI\obj\Debug\gcc_quick_compile.pdb
