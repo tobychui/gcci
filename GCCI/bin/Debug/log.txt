@@ -1,0 +1,4 @@
+C:\test.c: In function 'main':
+C:\test.c:5:2: error: expected ';' before 'system'
+  system("pause");
+  ^
