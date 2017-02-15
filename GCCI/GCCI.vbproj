@@ -78,6 +78,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DebugConsole.Designer.vb">
+      <DependentUpon>DebugConsole.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DebugConsole.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DebugConsole.resx">
+      <DependentUpon>DebugConsole.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
