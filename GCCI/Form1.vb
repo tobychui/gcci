@@ -9,6 +9,7 @@ Public Class Form1
     Dim logfile As String = Application.StartupPath & "\log.txt"
     Dim p() As Process
     Dim Errormsg As Boolean = False
+    Public LaunchfromNpp As Boolean = False
 
 
     Private Sub Form1_MouseDown(ByVal sender As Object, ByVal e As MouseEventArgs) Handles Panel1.MouseDown
@@ -40,6 +41,22 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.AllowDrop = True
+        Dim strArg() As String
+        strArg = Command().Split(" ")
+        If strArg(0) = "" Then
+            'There is no argument passed in
+            Console.WriteLine("No starting argument, starting interface...")
+        Else
+            Console.WriteLine("Argument received. Compile in progress.")
+            Console.WriteLine(Command())
+            NewCompile(Command())
+            Threading.Thread.Sleep(1500)
+            Console.WriteLine("Compile Finished.")
+            LaunchfromNpp = True
+            Timer1.Enabled = True
+            Me.Opacity = 0
+            Label1.Text = "CloseMe"
+        End If
     End Sub
     Private Sub Form1_DragDrop(sender As System.Object, e As System.Windows.Forms.DragEventArgs) Handles Me.DragDrop, Label3.DragDrop
         Errormsg = False
@@ -107,6 +124,7 @@ Public Class Form1
                 Dc.Show()
                 Errormsg = True
             Else
+
                 'Everthing works fine
                 My.Computer.FileSystem.DeleteFile(exportpath)
             End If
@@ -117,4 +135,14 @@ Public Class Form1
         p = Process.GetProcessesByName("cmd")
         Return p.Count
     End Function
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        If Label1.Text = "CloseMe" Then
+            Me.Close()
+        End If
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
 End Class

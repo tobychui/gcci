@@ -13,12 +13,20 @@ Public Class DebugConsole
         Do
             a = reader.ReadLine
             Label1.Text += a & vbNewLine
+            Console.WriteLine(a)
         Loop Until a Is Nothing
         reader.Close()
+
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Me.Left = Form1.Left + Form1.Width
         Me.Top = Form1.Top
+        If Form1.LaunchfromNpp = True Then
+            Form1.Label1.Text = "CloseMe"
+            Me.Opacity = 0
+        End If
     End Sub
+
+
 End Class

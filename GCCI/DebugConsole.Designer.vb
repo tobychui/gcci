@@ -28,6 +28,7 @@ Partial Class DebugConsole
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -78,6 +79,9 @@ Partial Class DebugConsole
         Me.Timer1.Enabled = True
         Me.Timer1.Interval = 5
         '
+        'Timer2
+        '
+        '
         'DebugConsole
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
@@ -105,4 +109,5 @@ Partial Class DebugConsole
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents Timer2 As Timer
 End Class
