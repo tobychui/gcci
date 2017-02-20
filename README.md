@@ -24,3 +24,8 @@ The 1st variable is the location of your GCCI.exe, the 2nd variable is the path 
 You can copy the GCCI.exe to your working everytime you need it. Or set the 1st path to a static path for simple compile.<br>
 The compiled .exe will be output in the same directory of the GCCI.exe location.
 </p>
+#User Interface Preview
+<p>Debug Interface</p><br>
+<img src="https://raw.githubusercontent.com/tobychui/gcci/master/screenshots/2017-02-20_10-19-14.png"></img><br><br>
+<p>Compile using Notepad ++ with NppExec Plugin</p><br>
+<img src="https://raw.githubusercontent.com/tobychui/gcci/master/screenshots/2017-02-20_10-19-28.png"></img><br>
