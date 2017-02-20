@@ -13,8 +13,8 @@ running with .NET framework 4.5
 5. Pull your C programs (.c) into the form windows to compile.<br>
 6. Find all the compiled exe files under the base dir of the GCCI.exe program.
 </p>
+#Update Version 2.1<br>
 <p>
-Update Version 2.1<br>
 GCCI now support NPPExec Direct Compile. Here is an example for the launching command:<br>
 <br>
 npp_save<br>
